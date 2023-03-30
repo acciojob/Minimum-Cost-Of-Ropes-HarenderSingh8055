@@ -1,6 +1,6 @@
 function minCostToFormRope() {
 	// event.preventDefault();
-	var firstinput=document.querySelector("input").value;
+	var firstinput=document.querySelector("#rope-lengths").value;
     var arr=firstinput.split(",");
     arr.sort(function (a, b) {
     return a - b;
